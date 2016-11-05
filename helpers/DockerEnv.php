@@ -91,7 +91,7 @@ class DockerEnv
      */
     public static function get($key, $default = null, $required = false)
     {
-        if ($required) {
+        if (false) {
             Dotenv::required($key);
         }
         return isset($_ENV[$key]) ? $_ENV[$key] : $default;

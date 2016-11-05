@@ -15,6 +15,7 @@ class DockerEnv
     const TEST_DB_DSN = 'mysql:host=testdb;dbname=test';
     const TEST_DB_USER = 'test';
     const TEST_DB_PASSWORD = 'test';
+    const COOKIE_VALIDATION_KEY = 'XXXXXX';
 
     /**
      * Initialize main environment vars and load Yii 2
